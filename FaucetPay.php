@@ -45,7 +45,8 @@ class Payment_Adapter_FaucetPay implements \FOSSBilling\InjectionAwareInterface
                 'currencies' => [
                     'text', 
                     [
-                        'label' => 'Accepted currencies (eg.: BTC;LTC;USDT):'
+                        'label' => 'Accepted currencies (eg.: BTC;LTC;USDT):',
+                        'required' => false
                     ]
                 ]
             ]
