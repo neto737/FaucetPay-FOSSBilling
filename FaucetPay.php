@@ -40,6 +40,7 @@ class Payment_Adapter_FaucetPay implements \FOSSBilling\InjectionAwareInterface
                     'text',
                     [
                         'label' => 'Username:',
+                        'required' => true
                     ],
                 ],
                 'currencies' => [
